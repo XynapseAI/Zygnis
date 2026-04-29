@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "../index.css"; // Reuse our tailwind v4 index.css
+import "../index.css";
 import { Navigation } from "../components/Navigation";
 import AuthProvider from "./AuthProvider";
 import Web3Provider from "./Web3Provider";
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Zygnis',
     description: 'Legendary Duelist Tap-to-Earn on Base',
-    url: 'https://zygnis.xyz', // Example URL, user will update
+    url: 'https://zygnis.vercel.app/',
     siteName: 'Zygnis',
     images: [
       {
@@ -26,9 +26,6 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
-  other: {
-    'base:app_id': '69f22b6b60934e840dedaaed',
-  },
 };
 
 export default function RootLayout({
@@ -38,6 +35,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="base:app_id" content="69f22b6b60934e840dedaaed" />
+        <meta property="base:app_id" content="69f22b6b60934e840dedaaed" />
+      </head>
       <body className={inter.className}>
         <AuthProvider>
           <Web3Provider>
