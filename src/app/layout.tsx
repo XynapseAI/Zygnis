@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
+  other: {
+    'base:app_id': '69f22b6b60934e840dedaaed',
+  },
 };
 
 export default function RootLayout({
