@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-yugi-purple: #4B0082;
+  --color-yugi-gold: #FFD700;
+  --color-yugi-dark: #1a1a2e;
+  --color-yugi-card: #cba052;
+  --font-pixel: "Press Start 2P", cursive;
+}
+
+body {
+  @apply bg-yugi-dark text-white font-pixel m-0 p-0 overflow-x-hidden;
+  /* Basic background texture simulation */
+  background-image: linear-gradient(rgba(75, 0, 130, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(75, 0, 130, 0.2) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+@layer components {
+  .btn-pixel {
+    @apply relative px-4 py-2 bg-yugi-purple border-4 border-yugi-gold text-yugi-gold 
+           active:translate-y-1 active:border-b-4 hover:brightness-110 transition-all uppercase;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+  .card-container {
+    perspective: 1000px;
+  }
+  .card-inner {
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+}
+
+/* Custom scrollbar for pixel art feel */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a2e;
+  border-left: 2px solid #4B0082;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFD700;
+  border: 2px solid #4B0082;
+}

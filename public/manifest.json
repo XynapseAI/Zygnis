@@ -1,0 +1,21 @@
+{
+  "name": "Zygnis",
+  "short_name": "Zygnis",
+  "description": "Legendary Duelist Tap-to-Earn",
+  "icons": [
+    {
+      "src": "https://images.ygoprodeck.com/images/cards/89631139.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://images.ygoprodeck.com/images/cards/89631139.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#ffd700"
+}

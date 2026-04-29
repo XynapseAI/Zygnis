@@ -1,0 +1,47 @@
+{
+  "name": "tap",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.11.2",
+    "@coinbase/onchainkit": "^1.1.2",
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "@tanstack/react-query": "^5.100.6",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.12.0",
+    "next": "^16.2.4",
+    "next-auth": "^4.24.14",
+    "pg": "^8.20.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "viem": "2.48.4",
+    "wagmi": "2.19.5",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "^24.12.2",
+    "@types/pg": "^8.20.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "postcss": "^8.5.12",
+    "prisma": "^7.8.0",
+    "tailwindcss": "^4.2.4",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.58.2"
+  }
+}
