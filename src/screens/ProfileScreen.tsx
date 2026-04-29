@@ -128,7 +128,7 @@ export const ProfileScreen = () => {
                 <div className="flex items-center justify-between bg-black/30 p-2 rounded-lg border border-white/5">
                   <div className="flex flex-col">
                     <span className="text-[7px] text-gray-500 uppercase">Email</span>
-                    <span className="text-[9px] text-white truncate max-w-[150px]">{session.user.email}</span>
+                    <span className="text-[9px] text-white truncate max-w-[150px]">{session?.user?.email}</span>
                   </div>
                   <div className="bg-green-500/20 text-green-400 text-[7px] px-1.5 py-0.5 rounded-full border border-green-500/30">
                     OK
