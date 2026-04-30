@@ -28,18 +28,6 @@ export const metadata: Metadata = {
   },
   other: {
     'base:app_id': '69f22b6b60934e840dedaaed',
-    'fc:miniapp': JSON.stringify({
-      version: '1',
-      imageUrl: 'https://images.ygoprodeck.com/images/cards/89631139.jpg',
-      button: {
-        title: 'Play Zygnis',
-        action: {
-          type: 'launch_miniapp',
-          name: 'Zygnis',
-          url: 'https://zygnis.vercel.app/',
-        },
-      },
-    }),
   },
 };
 
