@@ -1,5 +1,5 @@
 import { useStore } from '../store/useStore';
-import cardsData from '../data/cards.json';
+import { allCards } from '../utils/cards';
 import { signIn, signOut, useSession } from 'next-auth/react';
 import { useEffect, useState } from 'react';
 import { useAccount, useConnect, useDisconnect } from 'wagmi';
@@ -29,7 +29,7 @@ export const ProfileScreen = () => {
 
   const totalCards = inventory.reduce((acc, item) => acc + item.quantity, 0);
   const uniqueCards = inventory.length;
-  const completionPercentage = Math.round((uniqueCards / cardsData.length) * 100);
+  const completionPercentage = Math.round((uniqueCards / allCards.length) * 100);
   const level = Math.floor(zyg / 1000) + 1;
 
   useEffect(() => {

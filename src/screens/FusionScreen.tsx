@@ -19,7 +19,7 @@ export const FusionScreen = () => {
 
     // Fake animation delay
     setTimeout(() => {
-      const cardId = rollForCard() || "c_004"; // Guarantee a card, default to Kuriboh if rng fails
+      const cardId = rollForCard() || "KJV_COM_001"; // Guarantee a card, default to first common if rng fails
       addCard(cardId);
       setRevealedCard(cardId);
       setIsFusing(false);
@@ -28,7 +28,7 @@ export const FusionScreen = () => {
 
   return (
     <div className="min-h-screen bg-yugi-dark p-4 pb-24 flex flex-col items-center">
-      <h1 className="text-xl text-yugi-gold mb-8 drop-shadow-md">Polymerization</h1>
+      <h1 className="text-lg text-yugi-gold mb-8 drop-shadow-md font-bold uppercase tracking-widest">Polymerization</h1>
 
       <div className="text-center mb-12">
         <p className="text-xs text-gray-400 mb-2">ZYG AVAILABLE:</p>

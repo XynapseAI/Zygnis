@@ -1,16 +1,16 @@
 "use client";
 import { useState } from 'react';
 import { useStore } from '../store/useStore';
-import cardsData from '../data/cards.json';
+import { allCards, getCardImage } from '../utils/cards';
 import { Flame, Trash2, Zap } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const RARITY_VALUES: Record<string, number> = {
   'Common': 50,
   'Rare': 150,
-  'Super Rare': 500,
-  'Ultra Rare': 2000,
-  'Secret Rare': 5000,
+  'Epic': 500,
+  'Mythic': 2000,
+  'Legendary': 10000,
 };
 
 export const BurnScreen = () => {
@@ -19,10 +19,13 @@ export const BurnScreen = () => {
   const [burnQuantity, setBurnQuantity] = useState(1);
   const [showConfirm, setShowConfirm] = useState(false);
 
-  const inventoryCards = inventory.map(item => ({
-    ...item,
-    details: cardsData.find(c => c.id === item.cardId)
-  })).filter(item => item.details);
+  const inventoryCards = inventory.map(item => {
+    const details = allCards.find(c => c.id === item.cardId);
+    return {
+      ...item,
+      details: details ? { ...details, imageUrl: getCardImage(details.id) } : null
+    };
+  }).filter(item => item.details);
 
   const selectedItem = inventoryCards.find(i => i.cardId === selectedCardId);
   const zygPerCard = selectedItem?.details ? (RARITY_VALUES[selectedItem.details.rarity] || 0) : 0;
@@ -42,15 +45,15 @@ export const BurnScreen = () => {
     <div className="min-h-screen bg-yugi-dark p-4 pb-24 font-pixel max-w-2xl mx-auto">
       <div className="flex items-center justify-center gap-2 mb-4 md:mb-2">
         <Flame className="text-orange-500 animate-pulse" size={20} />
-        <h1 className="text-lg md:text-md text-orange-500 drop-shadow-md">Card Splitter</h1>
+        <h1 className="text-lg text-orange-500 drop-shadow-md uppercase tracking-wider font-bold">Card Splitter</h1>
       </div>
 
-      <p className="text-[8px] text-gray-400 text-center mb-6 md:mb-4">
+      <p className="text-[9px] text-gray-400 text-center mb-6 md:mb-4">
         Split duplicate cards to receive ancient ZYG.
       </p>
 
       {/* Selected Card Area */}
-      <div className="bg-black/50 border-4 border-orange-900 p-4 rounded-lg mb-4 min-h-[140px] md:min-h-[110px] flex flex-col items-center justify-center relative overflow-hidden max-w-sm mx-auto">
+      <div className="bg-black/50 border-4 border-orange-900 p-4 rounded-lg mb-4 min-h-[140px] md:min-h-[110px] flex flex-col items-center justify-center relative max-w-sm mx-auto">
         <div className="absolute inset-0 bg-gradient-to-t from-orange-900/20 to-transparent pointer-events-none" />
         
         {selectedItem ? (
@@ -61,7 +64,7 @@ export const BurnScreen = () => {
                 className="w-full h-full object-cover rounded border-2 border-orange-500 shadow-[0_0_10px_rgba(255,165,0,0.3)]"
                 alt="Selected card"
               />
-              <div className="absolute -top-1.5 -right-1.5 bg-orange-600 text-white text-[7px] px-1 py-0.5 rounded border border-white">
+              <div className="absolute -top-1.5 -right-1.5 bg-red-600 text-white text-[7px] w-4.5 h-4.5 flex items-center justify-center rounded-full border border-white font-bold z-10 shadow-lg">
                 x{selectedItem.quantity}
               </div>
             </div>
@@ -120,14 +123,19 @@ export const BurnScreen = () => {
               setSelectedCardId(item.cardId);
               setBurnQuantity(1);
             }}
-            className={`aspect-[2/3] relative rounded overflow-hidden border-2 transition-transform active:scale-95 ${
+            className={`relative rounded border-2 transition-transform active:scale-95 aspect-[5/7] ${
               selectedCardId === item.cardId ? 'border-orange-500 scale-105 z-10' : 'border-gray-800'
             }`}
           >
-            <img src={item.details?.imageUrl} className="w-full h-full object-cover" alt="Card" />
-            <div className="absolute inset-x-0 bottom-0 bg-black/80 py-0.5">
-              <span className="text-[7px] text-white font-bold">x{item.quantity}</span>
+            <div className="absolute inset-0 rounded overflow-hidden">
+              <img src={item.details?.imageUrl} className="w-full h-full object-cover" alt="Card" />
             </div>
+            
+            {item.quantity > 0 && (
+              <div className="absolute -top-1.5 -right-1.5 bg-red-600 text-white text-[7px] w-4.5 h-4.5 flex items-center justify-center rounded-full border border-white font-bold z-10 shadow-lg">
+                x{item.quantity}
+              </div>
+            )}
           </button>
         ))}
       </div>

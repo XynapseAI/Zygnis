@@ -41,9 +41,9 @@ export const RankingScreen = () => {
 
   return (
     <div className="min-h-screen bg-yugi-dark p-4 pb-24 font-pixel">
-      <div className="flex items-center justify-center gap-3 mb-8">
-        <Crown className="text-yugi-gold" size={28} />
-        <h1 className="text-xl text-white uppercase tracking-widest drop-shadow-[0_0_10px_rgba(255,215,0,0.5)]">Hall of ZYG</h1>
+      <div className="flex items-center justify-center gap-2 mb-8">
+        <Crown className="text-yugi-gold" size={20} />
+        <h1 className="text-lg text-white uppercase tracking-widest drop-shadow-[0_0_10px_rgba(255,215,0,0.5)] font-bold">Hall of ZYG</h1>
       </div>
 
       <div className="max-w-md mx-auto space-y-3">

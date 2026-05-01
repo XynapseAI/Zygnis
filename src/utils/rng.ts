@@ -1,12 +1,13 @@
-import cardsData from '../data/cards.json';
+import { allCards } from './cards';
 
-// Probabilities (out of 1000 to handle 0.5%)
+// Probabilities (out of 1000 to handle small % - now including Legendary)
 const WEIGHTS = {
-  'Nothing': 950, // 95%
-  'Common': 25,   // 2.5%
-  'Rare': 15,     // 1.5%
-  'Super Rare': 7, // 0.7%
-  'Ultra Rare': 3   // 0.3%
+  'Nothing': 950,    // 95%
+  'Common': 25,     // 2.5%
+  'Rare': 15,       // 1.5%
+  'Epic': 7,       // 0.7%
+  'Mythic': 2,      // 0.2%
+  'Legendary': 1    // 0.1%
 };
 
 export const rollForCard = (): string | null => {
@@ -27,7 +28,7 @@ export const rollForCard = (): string | null => {
   }
 
   // Select a random card of that rarity
-  const availableCards = cardsData.filter(c => c.rarity === selectedRarity);
+  const availableCards = allCards.filter(c => c.rarity === selectedRarity);
   if (availableCards.length === 0) return null; // Fallback if no cards of rarity exist
 
   const randomIndex = Math.floor(Math.random() * availableCards.length);

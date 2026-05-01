@@ -32,7 +32,10 @@ export default function Web3Provider({ children }: { children: React.ReactNode }
   return (
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
-        <OnchainKitProvider chain={base}>
+        <OnchainKitProvider 
+          chain={baseSepolia}
+          apiKey={process.env.NEXT_PUBLIC_ONCHAINKIT_API_KEY}
+        >
           {children}
         </OnchainKitProvider>
       </QueryClientProvider>

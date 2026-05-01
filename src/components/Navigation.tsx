@@ -12,7 +12,7 @@ export const Navigation = () => {
   const navItems = [
     { to: "/", icon: <Home size={18} />, label: "Tap" },
     { to: "/collection", icon: <Layers size={18} />, label: "Cards" },
-    { to: "/fusion", icon: <Sparkles size={18} />, label: "Fusion" },
+    // { to: "/mint", icon: <Sparkles size={18} />, label: "Mint" },
     { to: "/burn", icon: <Flame size={18} />, label: "Burn" },
     { to: "/ranking", icon: <Trophy size={18} />, label: "Rank" },
     { to: "/profile", icon: <User size={18} />, label: "Profile" },
@@ -31,7 +31,7 @@ export const Navigation = () => {
 
       {/* PC Menu Toggle Button */}
       <div className="hidden md:block fixed top-6 left-6 z-[100]">
-        <button 
+        <button
           onClick={() => setIsOpen(!isOpen)}
           className="bg-yugi-dark border-2 border-yugi-gold p-2 rounded-lg text-yugi-gold shadow-[0_0_10px_rgba(255,215,0,0.2)] hover:scale-105 transition-all"
         >
@@ -56,11 +56,10 @@ export const Navigation = () => {
                     key={item.to}
                     href={item.to}
                     onClick={() => setIsOpen(false)}
-                    className={`flex items-center gap-4 p-4 rounded-xl transition-all ${
-                      isActive 
-                        ? 'bg-yugi-gold text-black font-bold shadow-[0_0_20px_rgba(255,215,0,0.4)]' 
+                    className={`flex items-center gap-4 p-4 rounded-xl transition-all ${isActive
+                        ? 'bg-yugi-gold text-black font-bold shadow-[0_0_20px_rgba(255,215,0,0.4)]'
                         : 'text-gray-400 hover:text-white hover:bg-white/5'
-                    }`}
+                      }`}
                   >
                     {item.icon}
                     <span className="uppercase tracking-widest text-sm">{item.label}</span>
@@ -83,9 +82,8 @@ const NavItem = ({ to, icon, label }: { to: string; icon: React.ReactNode; label
     <li>
       <Link
         href={to}
-        className={`flex flex-col items-center p-1.5 text-xs transition-colors ${
-          isActive ? 'text-yugi-gold drop-shadow-[0_0_8px_rgba(255,215,0,0.8)]' : 'text-gray-400 hover:text-gray-200'
-        }`}
+        className={`flex flex-col items-center p-1.5 text-xs transition-colors ${isActive ? 'text-yugi-gold drop-shadow-[0_0_8px_rgba(255,215,0,0.8)]' : 'text-gray-400 hover:text-gray-200'
+          }`}
       >
         {icon}
         <span className="mt-0.5 text-[8px] uppercase tracking-wider font-bold">{label}</span>

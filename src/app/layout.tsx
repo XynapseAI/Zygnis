@@ -9,11 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Zygnis | Legendary Tap-to-Earn',
-  description: 'Tap to earn ZYG and collect legendary duel cards on Base.',
+  description: 'Zygnis is a next-generation tap-to-earn card game combining fast gameplay, true ownership, and a living fantasy universe.',
   manifest: '/manifest.json',
   openGraph: {
     title: 'Zygnis',
-    description: 'Legendary Duelist Tap-to-Earn on Base',
+    description: 'Zygnis is a next-generation tap-to-earn card game combining fast gameplay, true ownership, and a living fantasy universe.',
     url: 'https://zygnis.vercel.app/',
     siteName: 'Zygnis',
     images: [
