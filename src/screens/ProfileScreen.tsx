@@ -81,7 +81,7 @@ export const ProfileScreen = () => {
           <StatBox icon={<Zap size={14} className="text-hearth-gold fill-hearth-gold/20" />} label="ZYG" value={zyg.toLocaleString()} subText="Total Energy" />
           <StatBox icon={<Trophy size={14} className="text-orange-600" />} label="Today" value={`${tapsToday}/200`} subText="Daily Limit" />
           <StatBox icon={<Layers size={14} className="text-purple-600" />} label="Cards" value={totalCards} subText="Vessels Owned" />
-          <StatBox icon={<Globe size={14} className="text-green-600" />} label="Mastery" value={`${completionPercentage}%`} subText="Collection" />
+          <StatBox icon={<Globe size={14} className="text-green-600" />} label="Process" value={`${completionPercentage}%`} subText="Collection" />
         </div>
 
         <div className="relative pt-2">
@@ -98,7 +98,7 @@ export const ProfileScreen = () => {
             ) : (
               <div className="p-3 rounded-sm bg-black/10 border border-black/5 shadow-inner flex justify-between items-center group">
                 <div className="flex flex-col gap-1">
-                  <span className="text-[8px] text-[#8b4513] uppercase font-black tracking-[0.3em] engraved">Soul manifested</span>
+                  <span className="text-[8px] text-[#8b4513] uppercase font-black tracking-[0.3em] engraved">Email:</span>
                   <span className="text-[11px] text-[#2a1d15] font-black truncate max-w-[180px]">{session.user?.email}</span>
                 </div>
                 <button onClick={handleLogout} className="text-red-950 opacity-40 hover:opacity-100"><LogOut size={16} /></button>
@@ -121,7 +121,7 @@ export const ProfileScreen = () => {
             {isConnected && address ? (
               <div className="p-3 rounded-sm bg-black/30 border border-indigo-900/30 flex items-center justify-between shadow-inner">
                 <div className="flex flex-col gap-1">
-                  <span className="text-[8px] text-indigo-400 uppercase font-black tracking-[0.3em] engraved">Wallet Key</span>
+                  <span className="text-[8px] text-indigo-400 uppercase font-black tracking-[0.3em] engraved">Wallet Address</span>
                   <span className="text-[11px] text-white font-mono font-black tracking-tight">{truncateAddress(address)}</span>
                 </div>
                 <button onClick={() => disconnect()} className="text-indigo-400 opacity-40 hover:opacity-100"><LogOut size={16} /></button>

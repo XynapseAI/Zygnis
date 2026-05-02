@@ -1,11 +1,11 @@
+// src/app/api/nft/[id]/route.ts
 import { NextResponse } from 'next/server';
 import { getCardById, getCardImage } from '../../../../utils/cards';
 
 export async function GET(
   request: Request,
-  { params }: { params: Promise<{ id: string }> } // Khai báo params là Promise
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  // Chờ (await) params để lấy id
   const { id } = await params;
   const card = getCardById(id);
 
@@ -13,7 +13,6 @@ export async function GET(
     return NextResponse.json({ error: 'Card not found' }, { status: 404 });
   }
 
-  // Lấy domain hiện tại (tự động nhận localhost hoặc domain Vercel)
   const host = request.headers.get('host');
   const protocol = host?.includes('localhost') ? 'http' : 'https';
   const baseUrl = `${protocol}://${host}`;
@@ -29,9 +28,9 @@ export async function GET(
       { trait_type: 'Attribute', value: card.attribute },
       { trait_type: 'Type', value: card.cardType },
       { trait_type: 'Race', value: card.race },
-      { trait_type: 'Level', value: card.level },
-      { trait_type: 'ATK', value: card.atk },
-      { trait_type: 'DEF', value: card.def },
+      { display_type: 'number', trait_type: 'Level', value: card.level },
+      { display_type: 'number', trait_type: 'ATK', value: card.atk },
+      { display_type: 'number', trait_type: 'DEF', value: card.def },
     ],
   };
 

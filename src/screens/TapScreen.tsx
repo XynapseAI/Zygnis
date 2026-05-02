@@ -50,20 +50,20 @@ export const TapScreen = () => {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(139,69,19,0.2)_0%,_transparent_70%)] pointer-events-none" />
 
       {/* Header Info - Meticulous Stone Slab (Right Aligned now) */}
-      <div className="absolute top-10 w-full px-8 flex justify-end items-start z-20">
-        <div className="stone-broken p-0.5 scale-90 md:scale-100 origin-top-right">
-          <InfoBox icon={<Coins size={14} className="text-hearth-gold" />} value={zyg.toLocaleString()} />
+      <div className="absolute top-4 md:top-10 w-full px-4 md:px-8 flex justify-end items-start z-20">
+        <div className="stone-broken p-0.5 scale-85 md:scale-100 origin-top-right">
+          <InfoBox icon={<Coins size={14} className="text-hearth-gold w-3 h-3 md:w-3.5 md:h-3.5" />} value={zyg.toLocaleString()} />
         </div>
       </div>
 
       {/* Header - Meticulous Stone Label */}
-      <div className="text-center mt-4 mb-8 space-y-1">
-        <div className="stone-broken inline-flex items-center gap-3 px-4 py-1.5 bg-[#1a120d] border-[#3d2b1f] shadow-2xl mb-2">
-          <Zap className="text-hearth-gold animate-pulse" size={14} />
-          <span className="text-[9px] text-hearth-gold uppercase tracking-[0.3em] font-hearth font-black">Sacred Grounds</span>
+      <div className="text-center mt-16 md:mt-4 mb-6 md:mb-8 space-y-1 relative z-10 px-2">
+        <div className="stone-broken inline-flex items-center gap-2 md:gap-3 px-3 md:px-4 py-1 md:py-1.5 bg-[#1a120d] border-[#3d2b1f] shadow-2xl mb-2 scale-90 md:scale-100">
+          <Zap className="text-hearth-gold animate-pulse" size={12} />
+          <span className="text-[8px] md:text-[9px] text-hearth-gold uppercase tracking-[0.3em] font-hearth font-black">Sacred Grounds</span>
         </div>
-        <h1 className="text-2xl md:text-3xl font-hearth font-black text-white tracking-[0.1em] drop-shadow-[0_4px_12px_rgba(0,0,0,1)] uppercase">Guardian's Path</h1>
-        <p className="text-[10px] text-[#8b6b4d] uppercase tracking-[0.3em] max-w-xs mx-auto leading-relaxed font-black engraved">
+        <h1 className="text-xl md:text-3xl font-hearth font-black text-white tracking-[0.1em] drop-shadow-[0_4px_12px_rgba(0,0,0,1)] uppercase">Guardian's Path</h1>
+        <p className="text-[9px] md:text-[10px] text-[#8b6b4d] uppercase tracking-[0.3em] max-w-xs mx-auto leading-relaxed font-black engraved">
           Tap the Guardian to harness ancestral power.
         </p>
       </div>
@@ -95,7 +95,7 @@ export const TapScreen = () => {
       </div>
 
       {/* Progress Section */}
-      <div className="w-full max-w-sm px-6">
+      <div className="w-full max-w-sm px-6 relative z-10">
         <div className="flex justify-between items-center mb-2 px-2">
           <span className="text-[10px] font-hearth text-hearth-gold/70 uppercase tracking-[0.2em] font-bold">Energy Level</span>
           <span className="text-[12px] font-black font-hearth text-hearth-gold">{energy} / {DAILY_LIMIT}</span>
@@ -143,13 +143,13 @@ export const TapScreen = () => {
 };
 
 const InfoBox = ({ icon, value }: { icon: React.ReactNode; value: string }) => (
-  <div className="bg-[#1a120d] border-2 border-[#3d2b1f] px-3 py-2 rounded-sm flex items-center gap-3 shadow-inner">
-    <div className="bg-black/50 p-1.5 rounded-md shadow-inner border border-white/5">
+  <div className="bg-[#1a120d] border-2 border-[#3d2b1f] px-2 py-1 md:px-3 md:py-2 rounded-sm flex items-center gap-2 md:gap-3 shadow-inner">
+    <div className="bg-black/50 p-1 md:p-1.5 rounded-md shadow-inner border border-white/5">
       {icon}
     </div>
     <div className="flex flex-col">
-      <span className="text-[8px] text-[#8b6b4d] font-black uppercase tracking-widest engraved">ZYG</span>
-      <span className="text-base font-bold text-white font-hearth tracking-wider drop-shadow-md">{value}</span>
+      <span className="text-[7px] md:text-[8px] text-[#8b6b4d] font-black uppercase tracking-widest engraved">ZYG</span>
+      <span className="text-sm md:text-base font-bold text-white font-hearth tracking-wider drop-shadow-md leading-none">{value}</span>
     </div>
   </div>
 );
