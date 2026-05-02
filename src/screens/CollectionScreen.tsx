@@ -1,8 +1,9 @@
+"use client";
 import { useState } from 'react';
 import { useStore } from '../store/useStore';
 import { allCards, getCardImage } from '../utils/cards';
 import { CardReveal } from '../components/CardReveal';
-import { Filter, ChevronDown, Check, Sparkles } from 'lucide-react';
+import { Filter, ChevronDown, Check, Sparkles, Book, Coins, Box, Scroll } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export const CollectionScreen = () => {
@@ -14,7 +15,6 @@ export const CollectionScreen = () => {
 
   const rarities = ['All', 'Common', 'Rare', 'Epic', 'Legendary', 'Mythic'];
 
-  // Map inventory counts to the catalog data
   const ownedCards = allCards.map(card => {
     const invItem = inventory.find(i => i.cardId === card.id);
     return {
@@ -29,128 +29,140 @@ export const CollectionScreen = () => {
     : ownedCards.filter(c => c.rarity === filter);
 
   return (
-    <div className="min-h-screen bg-yugi-dark p-4 pb-24 flex flex-col items-center">
-      <div className="w-full max-w-6xl">
-        <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
-          <div>
-            <h1 className="text-lg text-white font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
-              Inventory
-            </h1>
-            <p className="text-[9px] text-gray-500 mt-0.5 uppercase tracking-widest font-bold">
-              {viewMode === 'local' ? 'In-Game Collection' : 'On-Chain Assets'}
-            </p>
+    <div className="min-h-screen p-4 pb-32 flex flex-col items-center">
+      <div className="w-full max-w-6xl mt-4">
+        {/* Meticulous Stone Header Area */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 md:mb-12 gap-4 md:gap-8 px-4">
+          <div className="space-y-2">
+            <h1 className="text-2xl md:text-3xl font-hearth text-white drop-shadow-[0_4px_8px_rgba(0,0,0,1)] tracking-widest uppercase">MY COLLECTION</h1>
+            <div className="flex items-center gap-2">
+              <Scroll size={16} className="text-hearth-gold opacity-40" />
+              <p className="text-[9px] md:text-[11px] text-[#8b6b4d] uppercase tracking-[0.4em] font-black engraved">
+                {viewMode === 'local' ? 'Spirit Vault' : 'NFT Collection'}
+              </p>
+            </div>
           </div>
-          
-          <div className="flex items-center gap-2">
-            {/* View Mode Toggle */}
-            <div className="flex bg-black/40 p-0.5 rounded-lg border border-white/10">
-              <button 
+
+          {/* Đưa Vault/Ascended và Filter lên cùng 1 hàng ngang ở mobile */}
+          <div className="flex flex-row items-center justify-between w-full md:w-auto gap-2 md:gap-6">
+            {/* View Mode Select - Broken Stone Style */}
+            <div className="stone-broken p-1 bg-[#1a120d] flex shadow-inner">
+              <button
                 onClick={() => setViewMode('local')}
-                className={`px-3 py-1 rounded-md text-[8px] font-bold uppercase transition-all ${
-                  viewMode === 'local' ? 'bg-yugi-gold text-black shadow-lg' : 'text-gray-500 hover:text-gray-300'
-                }`}
+                className={`flex items-center gap-1 md:gap-2 px-2 md:px-4 py-1.5 md:py-2 rounded-sm text-[8px] md:text-[10px] font-black uppercase tracking-widest transition-all duration-500 ${viewMode === 'local' ? 'bg-hearth-gold text-[#3d2b1f] shadow-[0_4px_15px_rgba(244,208,63,0.3)]' : 'text-[#8b6b4d] hover:text-[#f0e6d2]'
+                  }`}
               >
-                Local
+                <Box size={12} className="md:w-[14px] md:h-[14px]" />
+                CARDS
               </button>
-              <button 
+              <button
                 onClick={() => setViewMode('onchain')}
-                className={`px-3 py-1 rounded-md text-[8px] font-bold uppercase transition-all ${
-                  viewMode === 'onchain' ? 'bg-blue-600 text-white shadow-lg' : 'text-gray-500 hover:text-gray-300'
-                }`}
+                className={`flex items-center gap-1 md:gap-2 px-2 md:px-4 py-1.5 md:py-2 rounded-sm text-[8px] md:text-[10px] font-black uppercase tracking-widest transition-all duration-500 ${viewMode === 'onchain' ? 'bg-indigo-900 text-white shadow-[0_4px_15px_rgba(79,70,229,0.3)]' : 'text-[#8b6b4d] hover:text-[#f0e6d2]'
+                  }`}
               >
-                On-Chain
+                <Sparkles size={12} className="md:w-[14px] md:h-[14px]" />
+                NFTs
               </button>
             </div>
 
-          {/* Consolidated Filter Toggle */}
-          <div className="relative">
-            <button
-              onClick={() => setIsFilterOpen(!isFilterOpen)}
-              className="flex items-center gap-1.5 px-3 py-1.5 bg-gray-900 border-2 border-yugi-gold rounded-lg text-yugi-gold text-[9px] font-bold uppercase tracking-widest hover:bg-gray-800 transition-all shadow-[0_0_10px_rgba(255,215,0,0.2)]"
-            >
-              <Filter size={12} />
-              <span>{filter === 'All' ? 'Filter' : filter}</span>
-              <ChevronDown size={12} className={`transition-transform ${isFilterOpen ? 'rotate-180' : ''}`} />
-            </button>
+            {/* Filter - Meticulous Chipped Button */}
+            <div className="relative">
+              <button
+                onClick={() => setIsFilterOpen(!isFilterOpen)}
+                className="btn-stone-chipped flex items-center justify-center gap-1.5 md:gap-3 !py-2 md:!py-3 px-3 md:px-8 text-[9px] md:text-xs"
+              >
+                <Filter size={12} className="md:w-4 md:h-4" />
+                <span>{filter === 'All' ? 'FILTER' : filter.toUpperCase()}</span>
+                <ChevronDown size={12} className={`md:w-4 md:h-4 transition-transform duration-500 ${isFilterOpen ? 'rotate-180' : ''}`} />
+              </button>
 
-            <AnimatePresence>
-              {isFilterOpen && (
-                <>
-                  <div className="fixed inset-0 z-40" onClick={() => setIsFilterOpen(false)} />
-                  <motion.div
-                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
-                    animate={{ opacity: 1, y: 0, scale: 1 }}
-                    exit={{ opacity: 0, y: 10, scale: 0.95 }}
-                    className="absolute right-0 mt-2 w-48 bg-yugi-dark border-2 border-yugi-gold rounded-xl overflow-hidden z-50 shadow-2xl"
-                  >
-                    {rarities.map(r => (
-                      <button
-                        key={r}
-                        onClick={() => {
-                          setFilter(r);
-                          setIsFilterOpen(false);
-                        }}
-                        className={`w-full px-4 py-3 text-left text-[10px] font-bold uppercase tracking-widest flex items-center justify-between border-b border-white/5 last:border-0 hover:bg-white/5 transition-colors ${filter === r ? 'text-yugi-gold' : 'text-gray-400'
-                          }`}
-                      >
-                        {r}
-                        {filter === r && <Check size={12} />}
-                      </button>
-                    ))}
-                  </motion.div>
-                </>
-              )}
-            </AnimatePresence>
-          </div>
+              <AnimatePresence>
+                {isFilterOpen && (
+                  <>
+                    <div className="fixed inset-0 z-40" onClick={() => setIsFilterOpen(false)} />
+                    <motion.div
+                      initial={{ opacity: 0, y: 15, scale: 0.9 }}
+                      animate={{ opacity: 1, y: 0, scale: 1 }}
+                      exit={{ opacity: 0, y: 15, scale: 0.9 }}
+                      className="absolute right-0 mt-2 md:mt-4 w-40 md:w-60 bg-[#2a1d15] border-[6px] md:border-[10px] border-[#1a120d] rounded-sm overflow-hidden z-50 p-1 shadow-[0_30px_60px_rgba(0,0,0,1)]"
+                    >
+                      {rarities.map(r => (
+                        <button
+                          key={r}
+                          onClick={() => {
+                            setFilter(r);
+                            setIsFilterOpen(false);
+                          }}
+                          className={`w-full px-3 py-2 md:px-5 md:py-4 text-left text-[9px] md:text-[12px] font-black uppercase tracking-[0.2em] flex items-center justify-between rounded-sm transition-all duration-300 ${filter === r ? 'bg-[#3d2b1f] text-hearth-gold' : 'text-[#8b6b4d] hover:bg-white/5 hover:text-[#f0e6d2]'
+                            }`}
+                        >
+                          {r}
+                          {filter === r && <Check size={12} className="md:w-[14px] md:h-[14px] text-hearth-gold" />}
+                        </button>
+                      ))}
+                    </motion.div>
+                  </>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
         </div>
 
-        {/* Grid */}
+        {/* Grid Section - Chipped Stone Pedestals */}
         {viewMode === 'local' ? (
-          <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8">
+          <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 px-4">
             {filteredCards.map(card => (
-              <div 
-                key={card.id} 
+              <motion.div
+                key={card.id}
+                layout
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
                 onClick={() => card.quantity > 0 && setSelectedCardId(card.id)}
-                className={`relative rounded border-2 p-1 transition-transform aspect-[5/7] ${
-                  card.quantity > 0 
-                    ? 'border-[#cba052] bg-gradient-to-br from-[#cba052] to-[#8b6508] hover:scale-105 cursor-pointer' 
-                    : 'border-gray-700 bg-gray-800 grayscale opacity-50 cursor-not-allowed'
-                }`}
+                className="group flex flex-col gap-3"
               >
-                <img src={card.imageLocalUrl} alt={card.name} className="w-full object-cover" />
-
-                {card.quantity > 0 && (
-                  <div className="absolute -top-2 -right-2 bg-red-600 text-white text-[8px] w-5 h-5 flex items-center justify-center rounded-full border border-white font-bold z-10 shadow-lg">
-                    x{card.quantity}
+                <div className={`relative rounded-sm border-2 transition-all duration-700 aspect-[5/7] cursor-pointer shadow-[0_15px_30px_rgba(0,0,0,1)] hover:z-10 ${card.quantity > 0
+                  ? 'border-[#2a2a2a] bg-[#1a1a1a] hover:border-hearth-gold hover:shadow-[0_25px_50px_rgba(244,208,63,0.2)]'
+                  : 'border-[#1a120d] bg-[#0a0a0a] grayscale opacity-40 cursor-not-allowed shadow-none'
+                  }`}>
+                  <div className="absolute inset-0 rounded-sm overflow-hidden border border-black/60 shadow-inner">
+                    <img src={card.imageLocalUrl} alt={card.name} className="w-full h-full object-cover transition-transform duration-1000" />
                   </div>
-                )}
 
-                <div className="mt-1 text-[6px] text-center text-black font-bold truncate bg-white/80 p-[2px] rounded uppercase tracking-tighter">
+                  {card.quantity > 0 && (
+                    <div className="absolute -top-3 -right-3 bg-red-900 text-white text-[11px] w-7 h-7 flex items-center justify-center rounded-full border-[3px] border-black/80 font-black z-10 shadow-2xl">
+                      {card.quantity}
+                    </div>
+                  )}
+
+                  {/* Chisel Marks on Pedestal */}
+                  <div className="absolute inset-0 pointer-events-none chisel-mark opacity-40" />
+                </div>
+
+                <div className="text-[10px] text-center text-[#8b6b4d] font-black truncate uppercase tracking-widest drop-shadow-sm px-1">
                   {card.name}
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         ) : (
-          <div className="flex flex-col items-center justify-center py-20 bg-blue-500/5 border-2 border-dashed border-blue-500/20 rounded-3xl">
-            <div className="w-16 h-16 bg-blue-500/20 rounded-full flex items-center justify-center mb-4">
-              <Sparkles className="text-blue-400" size={32} />
+          <div className="mx-4 p-20 stone-broken flex flex-col items-center text-center bg-[#1a120d] border-[#3d2b1f] border-dashed border-[8px]">
+            <div className="w-24 h-24 bg-indigo-900/10 rounded-full flex items-center justify-center mb-10 border-[4px] border-indigo-500/20 shadow-[0_0_60px_rgba(79,70,229,0.3)]">
+              <Sparkles className="text-indigo-400" size={48} />
             </div>
-            <h3 className="text-sm font-bold text-white mb-2 uppercase tracking-widest">Base NFT Collection</h3>
-            <p className="text-[10px] text-gray-500 text-center max-w-xs px-4">
-              Connect your wallet to synchronize and view your minted NFTs on the Base network.
+            <h3 className="text-3xl font-hearth text-white mb-4 uppercase tracking-[0.3em] drop-shadow-lg">NFT GALLERY</h3>
+            <p className="text-md text-[#8b6b4d] max-w-sm px-8 leading-relaxed mb-12 font-bold italic">
+              "Connect your wallet to view your permanent NFTs."
             </p>
-            <button className="mt-6 px-6 py-2 bg-blue-600 text-white text-[9px] font-bold rounded-xl hover:bg-blue-500 transition-all">
-              Sync On-Chain Assets
+            <button className="btn-stone-chipped !bg-indigo-900 !text-white !border-indigo-600/30 !py-5 px-12 shadow-[0_15px_40px_rgba(79,70,229,0.4)]">
+              CONNECT WALLET
             </button>
           </div>
         )}
-      
+
         {viewMode === 'local' && inventory.length === 0 && (
-          <div className="text-center mt-20 text-gray-500 text-xs">
-            <p>No cards yet.</p>
-            <p className="mt-2 font-bold text-yugi-gold animate-pulse">Go tap to earn some!</p>
+          <div className="text-center mt-32 space-y-8">
+            <p className="text-[#8b6b4d] text-2xl font-hearth uppercase tracking-[0.4em] font-black drop-shadow-md">The Archives are vacant, Seeker.</p>
+            <button className="btn-stone-gold px-16 !py-5 shadow-2xl" onClick={() => window.location.href = '/'}>BEGIN THE QUEST</button>
           </div>
         )}
 
@@ -163,4 +175,3 @@ export const CollectionScreen = () => {
     </div>
   );
 };
-

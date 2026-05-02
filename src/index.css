@@ -1,46 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Roboto+Slab:wght@400;700;900&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-yugi-purple: #4B0082;
-  --color-yugi-gold: #FFD700;
-  --color-yugi-dark: #1a1a2e;
-  --color-yugi-card: #cba052;
-  --font-pixel: "Press Start 2P", cursive;
+  --color-hearth-stone: #4d4d4d;
+  --color-hearth-stone-light: #6e6e6e;
+  --color-hearth-brown: #3d2b1f;
+  --color-hearth-gold: #f4d03f;
+  --color-hearth-tan: #d2b48c;
+  --color-yugi-gold: #f4d03f;
+  --color-yugi-dark: #1a1a1a;
+  --font-hearth: "Belanosima", sans-serif;
+  --font-body: "Roboto Slab", serif;
 }
 
 body {
-  @apply bg-yugi-dark text-white font-pixel m-0 p-0 overflow-x-hidden;
-  /* Basic background texture simulation */
-  background-image: linear-gradient(rgba(75, 0, 130, 0.2) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(75, 0, 130, 0.2) 1px, transparent 1px);
-  background-size: 20px 20px;
+  @apply bg-hearth-brown text-[#f0e6d2] font-body m-0 p-0 overflow-x-hidden antialiased;
+  background-color: #1a120d;
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://www.transparenttextures.com/patterns/dark-wood.png');
+  background-attachment: fixed;
 }
 
 @layer components {
-  .btn-pixel {
-    @apply relative px-4 py-2 bg-yugi-purple border-4 border-yugi-gold text-yugi-gold 
-           active:translate-y-1 active:border-b-4 hover:brightness-110 transition-all uppercase;
-    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+  .stone-container, .stone-broken {
+    @apply relative bg-[#2a2a2a] border-[6px] border-[#1a1a1a] rounded-sm shadow-[0_30px_60px_rgba(0,0,0,1),inset_0_4px_15px_rgba(255,255,255,0.03)];
+    background-image: 
+      url('https://www.transparenttextures.com/patterns/dark-matter.png'),
+      linear-gradient(135deg, rgba(255,255,255,0.03) 0%, transparent 100%);
   }
-  .card-container {
-    perspective: 1000px;
+
+  .stone-broken {
+    clip-path: polygon(
+      0% 2%, 15% 0%, 45% 1%, 55% 0%, 85% 1%, 100% 0%, 98% 30%, 100% 50%, 98% 70%, 100% 98%, 75% 100%, 50% 99%, 25% 100%, 0% 98%, 2% 50%
+    );
+    @apply border-x-[10px] border-y-[6px];
+    &::before {
+      content: '';
+      @apply absolute inset-0 border border-white/5 pointer-events-none;
+    }
   }
-  .card-inner {
-    transform-style: preserve-3d;
-    transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+
+  .parchment-bg {
+    @apply bg-[#b89e70] text-[#2a1d15] shadow-[inset_0_8px_30px_rgba(0,0,0,0.6),0_15px_40px_rgba(0,0,0,0.5)] rounded-sm border-x-[12px] border-[#8b4513]/10 relative;
+    background-image: 
+      radial-gradient(circle at 50% 50%, transparent 40%, rgba(61,43,31,0.2) 100%),
+      url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    &::after {
+      content: '';
+      @apply absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/pitted-steel.png')] pointer-events-none;
+    }
+  }
+
+  .btn-stone-chipped, .btn-stone-gold {
+    @apply relative px-8 py-4 font-hearth font-black rounded-sm
+           uppercase tracking-[0.25em] text-[10px]
+           border-t-[4px] border-x-[4px] border-b-[10px] border-black/95
+           shadow-[0_20px_40px_rgba(0,0,0,0.8)]
+           hover:brightness-130 hover:scale-[1.02] hover:shadow-[0_25px_50px_rgba(0,0,0,0.9)]
+           active:translate-y-1 active:border-b-[4px] transition-all duration-300;
+    clip-path: polygon(
+      0% 12%, 12% 0%, 88% 0%, 100% 12%, 100% 88%, 88% 100%, 12% 100%, 0% 88%,
+      0% 50%, 3% 48%, 0% 45%
+    );
+  }
+
+  .btn-stone-chipped {
+    @apply bg-gradient-to-b from-[#555] via-[#222] to-[#111] text-hearth-gold border-white/10;
+    &::before {
+      content: '';
+      @apply absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/pitted-steel.png')] pointer-events-none;
+    }
+  }
+
+  .btn-stone-gold {
+    @apply bg-gradient-to-b from-[#ffd700] via-[#b8860b] to-[#5d4037] text-[#1a120d] border-white/30;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.4);
+    &::before {
+      content: '';
+      @apply absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] pointer-events-none;
+    }
+  }
+
+  .engraved {
+    @apply text-black/60 font-black;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.2);
+  }
+
+  .title-stone {
+    @apply font-hearth text-white drop-shadow-[0_6px_10px_rgba(0,0,0,1)] uppercase tracking-[0.2em] font-black;
+  }
+
+  .chisel-mark {
+    background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, transparent 50%, rgba(255,255,255,0.1) 100%);
+  }
+
+  .legendary-border {
+    @apply border-[4px] border-hearth-gold shadow-[0_0_30px_rgba(244,208,63,0.4),inset_0_0_10px_rgba(244,208,63,0.2)];
   }
 }
 
-/* Custom scrollbar for pixel art feel */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 16px;
 }
 ::-webkit-scrollbar-track {
-  background: #1a1a2e;
-  border-left: 2px solid #4B0082;
+  background: #1a120d;
+  border-left: 3px solid #3d2b1f;
 }
 ::-webkit-scrollbar-thumb {
-  background: #FFD700;
-  border: 2px solid #4B0082;
+  background: #333;
+  border: 4px solid #1a120d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
 }

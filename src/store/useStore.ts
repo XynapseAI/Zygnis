@@ -17,6 +17,7 @@ interface GameState {
   incrementTaps: () => void;
   addCard: (cardId: string) => void;
   burnCard: (cardId: string, quantity: number, zygAmount: number) => void;
+  removeCard: (cardId: string, quantity: number) => void;
   checkAndResetDaily: () => void;
   
   syncWithServer: () => Promise<void>;
@@ -66,6 +67,19 @@ export const useStore = create<GameState>()(
             zyg: state.zyg + zygAmount,
             inventory: newInventory
           };
+        });
+        get().syncWithServer();
+      },
+      removeCard: (cardId, quantity) => {
+        set((state) => {
+          const item = state.inventory.find(i => i.cardId === cardId);
+          if (!item || item.quantity < quantity) return state;
+
+          const newInventory = state.inventory
+            .map(i => i.cardId === cardId ? { ...i, quantity: i.quantity - quantity } : i)
+            .filter(i => i.quantity > 0);
+
+          return { inventory: newInventory };
         });
         get().syncWithServer();
       },

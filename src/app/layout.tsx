@@ -41,12 +41,24 @@ export default function RootLayout({
       <body className={inter.className}>
         <AuthProvider>
           <Web3Provider>
-            <div className="w-full min-h-screen bg-yugi-dark text-white font-pixel relative overflow-hidden shadow-2xl">
+            <div className="w-full min-h-screen relative overflow-hidden antialiased">
               {children}
               <Navigation />
             </div>
           </Web3Provider>
         </AuthProvider>
+
+        {/* Global SVG Filters for Skeuomorphism */}
+        <svg style={{ visibility: 'hidden', position: 'absolute', width: 0, height: 0 }}>
+          <filter id="stone-filter">
+            <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+          </filter>
+          <filter id="chipped-edge">
+            <feTurbulence type="turbulence" baseFrequency="0.1" numOctaves="2" result="turb" />
+            <feDisplacementMap in="SourceGraphic" in2="turb" scale="5" xChannelSelector="R" yChannelSelector="G" />
+          </filter>
+        </svg>
       </body>
     </html>
   );
