@@ -1,26 +1,23 @@
-import { NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth/next';
 import prisma from '../../../lib/prisma';
-import { authOptions } from '../../../lib/auth';
+import { validateSession, apiError, apiSuccess } from '../../../lib/security';
 
 export async function GET() {
   try {
-    const session = await getServerSession(authOptions);
-    if (!session?.user?.email) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    }
+    const { error, email } = await validateSession();
+    if (error) return error;
 
     const dbUser = await prisma.user.findUnique({
-      where: { email: session.user.email },
+      where: { email: email! },
       include: { inventory: true }
     });
 
     if (!dbUser) {
-      return NextResponse.json({ error: 'User not found' }, { status: 404 });
+      return apiError('User not found', 404);
     }
 
-    return NextResponse.json(dbUser);
+    return apiSuccess(dbUser);
   } catch (error) {
-    return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
+    console.error('User API Error:', error);
+    return apiError('Internal Server Error', 500);
   }
 }

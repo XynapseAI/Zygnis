@@ -48,9 +48,27 @@ export const MintScreen = () => {
     },
   ] as const;
 
-  const handleMintSuccess = () => {
-    addZyg(-MINT_FEE);
-    setSelectedCardId(null);
+  const handleMintSuccess = async (receipt: any) => {
+    const transactionHash = receipt.transactionHash;
+    if (!transactionHash || !selectedCardId) return;
+
+    try {
+      const response = await fetch('/api/mint/verify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ transactionHash, cardId: selectedCardId }),
+      });
+
+      if (response.ok) {
+        addZyg(-MINT_FEE);
+        setSelectedCardId(null);
+        console.log('Mint verified and synced!');
+      } else {
+        console.error('Failed to verify mint on server');
+      }
+    } catch (error) {
+      console.error('Error during mint verification:', error);
+    }
   };
 
   const calls = selectedCardId ? [

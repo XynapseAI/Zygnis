@@ -39,7 +39,7 @@ export const CardReveal = ({ cardId, onClose, isNew = true }: CardRevealProps) =
               className="absolute inset-0 stone-broken !bg-[#2a2a2a] border-[8px] border-[#1a1a1a] p-3 shadow-[0_30px_60px_rgba(0,0,0,1)] flex flex-col items-center justify-center"
               style={{ backfaceVisibility: "hidden" }}
             >
-              <div className="relative w-full h-full rounded-sm overflow-hidden border-[2px] border-black/80 shadow-[inset_0_5px_10px_rgba(0,0,0,1)]">
+              <div className="relative w-full h-full rounded-xl overflow-hidden border-[2px] border-black/80 shadow-[inset_0_5px_10px_rgba(0,0,0,1)]">
                 <img src={cardImageUrl} alt={card.name} className="w-full h-full object-cover transition-transform duration-1000" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
                 <div className="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/pitted-steel.png')]" />
@@ -66,7 +66,7 @@ export const CardReveal = ({ cardId, onClose, isNew = true }: CardRevealProps) =
               style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
             >
               {/* Reduced padding from p-6 to p-4 to save space */}
-              <div className="w-full h-full p-4 parchment-bg flex flex-col relative m-0.5 overflow-hidden">
+              <div className="w-full h-full p-4 rounded-xl parchment-bg flex flex-col relative m-0.5 overflow-hidden">
                 <div className="absolute inset-0 opacity-[0.05] pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')]" />
 
                 <div className="relative z-10 flex-1 flex flex-col text-left h-full">
