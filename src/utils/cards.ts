@@ -29,9 +29,8 @@ export const allCards: Card[] = [
 ];
 
 // Helper to get image path based on ID
-// The pattern is [ID]_202605011113.jpeg
 export const getCardImage = (id: string) => {
-  return `/cards/${id}_202605011113.jpeg`;
+  return `/cards/${id}.jpeg`;
 };
 
 export const getCardById = (id: string) => {

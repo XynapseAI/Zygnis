@@ -89,10 +89,10 @@ export const ProfileScreen = () => {
           <div className="parchment-bg p-4 pt-6 shadow-[0_25px_50px_rgba(0,0,0,0.8)] border-x-[6px] border-[#8b4513]/20">
             {!session ? (
               <div className="text-center py-2">
-                <p className="text-[10px] text-[#2a1d15] mb-4 font-black leading-relaxed italic drop-shadow-sm px-4">"Login to preserve your digital spirit."</p>
+                <p className="text-[10px] text-[#2a1d15] mb-4 font-black leading-relaxed italic drop-shadow-sm px-4">"Login to preserve your data."</p>
                 <button onClick={handleLogin} className="btn-stone-gold w-full !py-2.5 text-[10px] flex items-center justify-center gap-3">
                   <img src="https://www.google.com/favicon.ico" className="w-4 h-4" alt="G" />
-                  SYNC WITH GOOGLE
+                  CONNECT GOOGLE
                 </button>
               </div>
             ) : (
@@ -128,7 +128,7 @@ export const ProfileScreen = () => {
               </div>
             ) : (
               <button onClick={() => setShowWalletOptions(true)} className="btn-stone-chipped w-full !py-2.5 text-[10px] !bg-indigo-950/80 !text-indigo-100">
-                SYNC ASTRAL KEY
+                SYNC WEB3 WALLET
               </button>
             )}
           </div>
@@ -143,20 +143,20 @@ export const ProfileScreen = () => {
           >
             <motion.div
               initial={{ scale: 0.8, y: 50 }} animate={{ scale: 1, y: 0 }} exit={{ scale: 0.8, y: 50 }}
-              className="stone-broken w-full max-w-sm relative p-8 border-[12px] border-[#1a1a1a] bg-[#2a2a2a]"
+              className="stone-broken w-full max-w-sm relative p-6 border-[12px] border-[#1a1a1a] bg-[#2a2a2a]"
             >
               <button onClick={() => setShowWalletOptions(false)} className="absolute top-6 right-6 text-[#8b6b4d] hover:text-white transition-all"><X size={24} /></button>
-              <h3 className="text-2xl font-hearth font-black text-hearth-gold mb-2 text-center uppercase tracking-[0.2em]">ASTRAL BRIDGE</h3>
+              <h3 className="text-xl font-hearth font-black text-hearth-gold mb-2 text-center uppercase tracking-[0.2em]">CONNECT WALLET</h3>
               <div className="space-y-4 mt-8">
                 {connectors.map((connector) => (
                   <button
                     key={connector.id}
                     onClick={() => { connect({ connector }); setShowWalletOptions(false); }}
-                    className="w-full p-4 rounded-sm bg-[#1a120d] border-[2px] border-[#3d2b1f] hover:border-hearth-gold transition-all flex items-center justify-between group shadow-xl"
+                    className="w-full rounded-xl bg-[#1a120d] border-[2px] border-[#3d2b1f] hover:border-hearth-gold transition-all flex items-center justify-between group shadow-xl"
                   >
                     <div className="flex items-center gap-4">
                       <div className="w-10 h-10 rounded-sm bg-black/50 flex items-center justify-center border border-white/5"><Wallet size={20} className="text-indigo-400" /></div>
-                      <span className="text-sm font-black text-white/90 font-hearth uppercase tracking-[0.15em]">{getConnectorName(connector)}</span>
+                      <span className="text-xs font-black text-white/90 font-hearth uppercase tracking-[0.15em]">{getConnectorName(connector)}</span>
                     </div>
                     <ChevronRight size={20} className="text-[#3d2b1f] group-hover:text-hearth-gold transition-all" />
                   </button>

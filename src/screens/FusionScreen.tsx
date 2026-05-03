@@ -4,12 +4,15 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useStore } from '../store/useStore';
 import { allCards, getCardImage } from '../utils/cards';
 import { Sparkles, Shield, Zap, Ghost, X } from 'lucide-react';
+import { CardReveal } from '../components/CardReveal';
 
 export const FusionScreen = () => {
   const { inventory, addCard, removeCard } = useStore();
   const [slot1, setSlot1] = useState<string | null>(null);
   const [slot2, setSlot2] = useState<string | null>(null);
   const [isFusing, setIsFusing] = useState(false);
+
+  const [fusedCardId, setFusedCardId] = useState<string | null>(null);
 
   const inventoryCards = inventory.map(item => {
     const details = allCards.find(c => c.id === item.cardId);
@@ -19,16 +22,46 @@ export const FusionScreen = () => {
     };
   }).filter(item => item.details && item.quantity > 0);
 
+  const getRandomFusedCard = () => {
+    const rand = Math.random() * 100;
+    let targetRarity = 'Common';
+
+    if (rand < 0.5) {
+      targetRarity = 'Mythic'
+    } else if (rand < 2.0) {
+      targetRarity = 'Legendary';
+    } else if (rand < 5.0) {
+      targetRarity = 'Epic';
+    } else if (rand < 20.0) {
+      targetRarity = 'Rare';
+    } else {
+      targetRarity = 'Common';
+    }
+
+    const cardsOfRarity = allCards.filter(c => c.rarity === targetRarity);
+
+    if (cardsOfRarity.length === 0) {
+      return allCards[Math.floor(Math.random() * allCards.length)].id;
+    }
+
+    const randomCard = cardsOfRarity[Math.floor(Math.random() * cardsOfRarity.length)];
+    return randomCard.id;
+  };
+
   const handleFusion = () => {
     if (!slot1 || !slot2 || isFusing) return;
     setIsFusing(true);
+
     setTimeout(() => {
       removeCard(slot1, 1);
       removeCard(slot2, 1);
-      addCard('KJV_MYT_001');
+      const newCardId = getRandomFusedCard();
+      addCard(newCardId);
+
       setSlot1(null);
       setSlot2(null);
       setIsFusing(false);
+      setFusedCardId(newCardId);
     }, 2500);
   };
 
@@ -50,9 +83,9 @@ export const FusionScreen = () => {
           <div className="flex items-center justify-between mb-4 px-4 border-b-[3px] border-[#3d2b1f] pb-4">
             <div className="flex items-center gap-3">
               <Shield size={18} className="text-[#3d2b1f]" />
-              <h2 className="text-sm font-hearth text-white uppercase tracking-[0.2em] font-black drop-shadow-md">Available Relics</h2>
+              <h2 className="text-sm font-hearth text-white uppercase tracking-[0.2em] font-black drop-shadow-md">Available Cards</h2>
             </div>
-            <span className="text-[10px] text-hearth-gold font-black font-hearth tracking-[0.1em] uppercase">{inventoryCards.length} RELICS READY</span>
+            <span className="text-[10px] text-hearth-gold font-black font-hearth tracking-[0.1em] uppercase">{inventoryCards.length} CARDS READY</span>
           </div>
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 max-h-[700px] overflow-y-auto pr-4 custom-scrollbar">
             {inventoryCards.map((item) => {
@@ -96,6 +129,12 @@ export const FusionScreen = () => {
           </div>
         </div>
       </div>
+
+      <CardReveal
+        cardId={fusedCardId}
+        onClose={() => setFusedCardId(null)}
+        isNew={true}
+      />
     </div>
   );
 };

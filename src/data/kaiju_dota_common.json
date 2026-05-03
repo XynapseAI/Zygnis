@@ -1,73 +1,73 @@
 [
     {
         "id": "KJV_COM_014",
-        "name": "Gorvrak",
-        "description": "A simple but effective Synth-wave Phoenix that serves as a powerful Titan. Glowing with an eerie, inner light.",
+        "name": "Ironfoot Grunk",
+        "description": "A sturdy and short-tempered Dwarf Berserker from the Iron Mountains. He wields a heavy axe and wears reinforced leather armor.",
         "rarity": "Common",
-        "attribute": "Neon",
-        "cardType": "Titan",
-        "race": "Ancient-Titan",
+        "attribute": "Terra",
+        "cardType": "Creep",
+        "race": "Dwarf-Warrior",
         "level": 3,
         "atk": 1500,
-        "def": 705,
+        "def": 1200,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Synth-wave Phoenix. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A sturdy Dwarf Berserker with a long braided ginger beard and a heavy iron axe. Wearing reinforced leather armor with fur trim. Dynamic battle-ready pose. High contrast, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_045",
-        "name": "Pyrobolt",
-        "description": "A simple but effective Scorched Earth Elemental that serves as a powerful Automaton. Glowing with an eerie, inner light.",
+        "name": "Bark-Skin Sapling",
+        "description": "A young but resilient Tree Person. Its branches are flexible yet strong, capable of whipping opponents with surprising force.",
         "rarity": "Common",
-        "attribute": "Flare",
-        "cardType": "Automaton",
-        "race": "Mecha-Beast",
+        "attribute": "Terra",
+        "cardType": "Elemental",
+        "race": "Treant-Sprout",
         "level": 2,
         "atk": 1064,
-        "def": 591,
+        "def": 1100,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Scorched Earth Elemental. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A small anthropomorphic Tree Person with green leaves and thick bark skin. Whipping long vine-like branches. Dynamic action pose. High contrast, earthy greens and browns, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_035",
-        "name": "Embrix",
-        "description": "A simple but effective Burning Cinder Wolf that serves as a powerful Elemental. Roaring with the force of a thousand storms.",
+        "name": "Spark-Caller Apprentice",
+        "description": "A young Thunder God in training. Though his powers are still developing, he can summon localized electrical discharges.",
         "rarity": "Common",
-        "attribute": "Flare",
+        "attribute": "Aero",
         "cardType": "Elemental",
-        "race": "Primal-Spirit",
+        "race": "Sky-Dweller",
         "level": 4,
         "atk": 1267,
-        "def": 1009,
+        "def": 800,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Burning Cinder Wolf. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A youthful Thunder God with glowing blue eyes and small wings on his ankles. Channeling a spark of electricity between his hands. Wearing a white and gold tunic. Dynamic pose. High contrast, electric blues and golds, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_011",
-        "name": "Vex'cog",
-        "description": "A simple but effective Umbral Stalker that serves as a powerful Automaton. Leaving a trail of destruction in its wake.",
+        "name": "Silver-Shield Squire",
+        "description": "A dedicated Knight Initiate. His silver-plated shield is his most prized possession, used to protect the weak from harm.",
         "rarity": "Common",
-        "attribute": "Void",
-        "cardType": "Automaton",
-        "race": "Mecha-Beast",
+        "attribute": "Neon",
+        "cardType": "Creep",
+        "race": "Knight-Human",
         "level": 1,
         "atk": 916,
-        "def": 518,
+        "def": 1200,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Umbral Stalker. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A young knight in gleaming silver armor holding a large polished kite shield. Standing in a defensive stance. Dynamic lighting on the armor. High contrast, silver and blue colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_038",
-        "name": "Arcanolt",
-        "description": "A simple but effective Holographic Cyber-Fox that serves as a powerful Automaton. Glowing with an eerie, inner light.",
+        "name": "Horde-Wanderer",
+        "description": "An Orc Scavenger from the rough badlands. He survives by his wits and a rusted but sharp cleaver.",
         "rarity": "Common",
-        "attribute": "Neon",
-        "cardType": "Automaton",
-        "race": "Mecha-Beast",
+        "attribute": "Terra",
+        "cardType": "Creep",
+        "race": "Orc-Scavenger",
         "level": 1,
         "atk": 1261,
-        "def": 1233,
+        "def": 900,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Holographic Cyber-Fox. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A green-skinned Orc with tusks, wearing tattered leather and bone ornaments. Holding a large rusted iron cleaver. Crouched in a scavenging pose. High contrast, moss greens and rusty browns, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_024",
@@ -81,7 +81,7 @@
         "atk": 1028,
         "def": 1076,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Living Mountain with a village on its back. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Living Mountain with a village on its back. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_004",
@@ -95,7 +95,7 @@
         "atk": 1027,
         "def": 1028,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective King Kong-inspired Silverback. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective King Kong-inspired Silverback. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_007",
@@ -109,7 +109,7 @@
         "atk": 1028,
         "def": 1142,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Void-leaking Astronaut ghost. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Void-leaking Astronaut ghost. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_029",
@@ -123,7 +123,7 @@
         "atk": 1492,
         "def": 1265,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Fire-breathing Chimera. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Fire-breathing Chimera. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_048",
@@ -137,7 +137,7 @@
         "atk": 1179,
         "def": 1175,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Dark Matter Slime. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Dark Matter Slime. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_023",
@@ -151,7 +151,7 @@
         "atk": 883,
         "def": 1071,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Crystalline Jellyfish. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Crystalline Jellyfish. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_018",
@@ -165,7 +165,7 @@
         "atk": 936,
         "def": 652,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Volcanic Crab with a melting shell. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Volcanic Crab with a melting shell. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_017",
@@ -179,7 +179,7 @@
         "atk": 1274,
         "def": 923,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Zephyr Elemental. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Zephyr Elemental. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_021",
@@ -193,7 +193,7 @@
         "atk": 1370,
         "def": 799,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Umbral Stalker. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Umbral Stalker. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_039",
@@ -207,7 +207,7 @@
         "atk": 1234,
         "def": 1213,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Sun Wukong-inspired Monkey Warrior. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Sun Wukong-inspired Monkey Warrior. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_010",
@@ -221,7 +221,7 @@
         "atk": 1173,
         "def": 1289,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Burning Cinder Wolf. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Burning Cinder Wolf. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_041",
@@ -235,7 +235,7 @@
         "atk": 857,
         "def": 701,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Stone Golem with emerald eyes. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Stone Golem with emerald eyes. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_005",
@@ -249,7 +249,7 @@
         "atk": 1317,
         "def": 1498,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Coral-armored Samurai. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Coral-armored Samurai. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_047",
@@ -263,7 +263,7 @@
         "atk": 1380,
         "def": 1485,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Feathered Serpent of the heights. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Feathered Serpent of the heights. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_026",
@@ -277,7 +277,7 @@
         "atk": 1148,
         "def": 1264,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Eldritch Squid with glowing suckers. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Eldritch Squid with glowing suckers. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_050",
@@ -291,7 +291,7 @@
         "atk": 1363,
         "def": 654,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Eldritch Squid with glowing suckers. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Eldritch Squid with glowing suckers. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_002",
@@ -305,7 +305,7 @@
         "atk": 1102,
         "def": 1156,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Golden-maned Sky Lion. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Golden-maned Sky Lion. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_006",
@@ -319,7 +319,7 @@
         "atk": 1453,
         "def": 712,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Cloud-walking Stag. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Cloud-walking Stag. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_022",
@@ -333,7 +333,7 @@
         "atk": 1116,
         "def": 513,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Mist-shrouded Ghost Ship spirit. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Mist-shrouded Ghost Ship spirit. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_031",
@@ -347,7 +347,7 @@
         "atk": 1052,
         "def": 1347,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Prism-winged Dragonfly. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Prism-winged Dragonfly. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_046",
@@ -361,7 +361,7 @@
         "atk": 1051,
         "def": 946,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Storm-chaser Falcon. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Storm-chaser Falcon. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_032",
@@ -375,7 +375,7 @@
         "atk": 866,
         "def": 877,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Ice-encased Polar Bear. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Ice-encased Polar Bear. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_013",
@@ -389,7 +389,7 @@
         "atk": 1325,
         "def": 656,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Wind-up Clockwork Bird. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Wind-up Clockwork Bird. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_020",
@@ -403,7 +403,7 @@
         "atk": 1186,
         "def": 548,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Fire-breathing Chimera. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Fire-breathing Chimera. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_036",
@@ -417,7 +417,7 @@
         "atk": 986,
         "def": 1365,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Tidal Wave Serpent. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Tidal Wave Serpent. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_009",
@@ -431,7 +431,7 @@
         "atk": 1404,
         "def": 960,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Cloud-walking Stag. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Cloud-walking Stag. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_008",
@@ -445,7 +445,7 @@
         "atk": 817,
         "def": 1082,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Living Mountain with a village on its back. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Living Mountain with a village on its back. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_028",
@@ -459,7 +459,7 @@
         "atk": 1270,
         "def": 1083,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Crystal-encrusted Tortoise. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Crystal-encrusted Tortoise. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_003",
@@ -473,7 +473,7 @@
         "atk": 1336,
         "def": 751,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Deep-sea Anglerfish Fiend. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Deep-sea Anglerfish Fiend. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_042",
@@ -487,7 +487,7 @@
         "atk": 1231,
         "def": 1297,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Void-touched Owl with cosmic feathers. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Void-touched Owl with cosmic feathers. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_012",
@@ -501,7 +501,7 @@
         "atk": 1399,
         "def": 1030,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Crystalline Jellyfish. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Crystalline Jellyfish. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_044",
@@ -515,7 +515,7 @@
         "atk": 1468,
         "def": 738,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Molten Lava Salamander. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Molten Lava Salamander. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_025",
@@ -529,7 +529,7 @@
         "atk": 849,
         "def": 618,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Obsidian Dragon with glowing cracks. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Obsidian Dragon with glowing cracks. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_030",
@@ -543,7 +543,7 @@
         "atk": 865,
         "def": 952,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Stone Golem with emerald eyes. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Stone Golem with emerald eyes. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_040",
@@ -557,7 +557,7 @@
         "atk": 1324,
         "def": 1085,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Crystal-encrusted Tortoise. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Crystal-encrusted Tortoise. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_037",
@@ -571,7 +571,7 @@
         "atk": 874,
         "def": 1051,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Tornado-spinning Djinn. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Tornado-spinning Djinn. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_027",
@@ -585,7 +585,7 @@
         "atk": 871,
         "def": 521,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Mud-slicked Swamp Monster. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Mud-slicked Swamp Monster. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_015",
@@ -599,7 +599,7 @@
         "atk": 1483,
         "def": 751,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Zephyr Elemental. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Zephyr Elemental. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_033",
@@ -613,7 +613,7 @@
         "atk": 1186,
         "def": 1064,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Many-eyed Abyssal Watcher. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Many-eyed Abyssal Watcher. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_049",
@@ -627,7 +627,7 @@
         "atk": 1247,
         "def": 944,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Fire-breathing Chimera. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Fire-breathing Chimera. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_001",
@@ -641,7 +641,7 @@
         "atk": 1182,
         "def": 1366,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Crystal-encrusted Tortoise. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Crystal-encrusted Tortoise. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_034",
@@ -655,7 +655,7 @@
         "atk": 1203,
         "def": 699,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Solar Lion with a mane of sunspots. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Solar Lion with a mane of sunspots. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_019",
@@ -669,7 +669,7 @@
         "atk": 1381,
         "def": 1048,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Tornado-spinning Djinn. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Tornado-spinning Djinn. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_043",
@@ -683,7 +683,7 @@
         "atk": 950,
         "def": 610,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Solar Lion with a mane of sunspots. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Solar Lion with a mane of sunspots. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     },
     {
         "id": "KJV_COM_016",
@@ -697,6 +697,6 @@
         "atk": 1001,
         "def": 1308,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A simple but effective Hellfire Steed. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Simple Yu-Gi-Oh! card art style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A simple but effective Hellfire Steed. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Legendary Viking illustration style, centered silhouette, basic elemental effects, sharp linework. No text, no signature."
     }
 ]

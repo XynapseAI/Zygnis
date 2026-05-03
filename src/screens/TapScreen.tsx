@@ -62,7 +62,6 @@ export const TapScreen = () => {
           <Zap className="text-hearth-gold animate-pulse" size={12} />
           <span className="text-[8px] md:text-[9px] text-hearth-gold uppercase tracking-[0.3em] font-hearth font-black">Sacred Grounds</span>
         </div>
-        <h1 className="text-xl md:text-3xl font-hearth font-black text-white tracking-[0.1em] drop-shadow-[0_4px_12px_rgba(0,0,0,1)] uppercase">Guardian's Path</h1>
         <p className="text-[9px] md:text-[10px] text-[#8b6b4d] uppercase tracking-[0.3em] max-w-xs mx-auto leading-relaxed font-black engraved">
           Tap the Guardian to harness ancestral power.
         </p>
@@ -79,8 +78,8 @@ export const TapScreen = () => {
             disabled={energy <= 0}
             className={`relative z-10 w-64 h-64 md:w-80 md:h-80 transition-all duration-500 ${energy <= 0 ? 'grayscale opacity-40 cursor-not-allowed' : 'hover:drop-shadow-[0_0_40px_rgba(244,208,63,0.3)]'}`}
           >
-            <div className="absolute inset-0 overflow-hidden rounded-full">
-              <img src="/dragon.png" className={`w-full h-full object-cover transition-transform duration-1000 ${energy > 0 ? 'group-hover:scale-110' : ''}`} alt="Guardian" />
+            <div className="absolute inset-0 overflow-hidden rounded-xl">
+              <img src="/dragon.png" className={`w-full h-full object-cover transition-transform duration-1000 ${energy > 0 ? 'group-hover:scale-102' : ''}`} alt="Guardian" />
             </div>
 
             {energy <= 0 && (
@@ -97,7 +96,7 @@ export const TapScreen = () => {
       {/* Progress Section */}
       <div className="w-full max-w-sm px-6 relative z-10">
         <div className="flex justify-between items-center mb-2 px-2">
-          <span className="text-[10px] font-hearth text-hearth-gold/70 uppercase tracking-[0.2em] font-bold">Energy Level</span>
+          <span className="text-[10px] font-hearth text-hearth-gold/70 uppercase tracking-[0.2em] font-bold">Remaining energy</span>
           <span className="text-[12px] font-black font-hearth text-hearth-gold">{energy} / {DAILY_LIMIT}</span>
         </div>
         <div className="w-full h-2.5 bg-[#0a0a0a] rounded-sm overflow-hidden border border-black/40 shadow-inner">

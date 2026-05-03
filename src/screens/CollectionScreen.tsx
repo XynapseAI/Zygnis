@@ -34,7 +34,7 @@ export const CollectionScreen = () => {
         {/* Meticulous Stone Header Area */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 md:mb-12 gap-4 md:gap-8 px-4">
           <div className="space-y-2">
-            <h1 className="text-2xl md:text-3xl font-hearth text-white drop-shadow-[0_4px_8px_rgba(0,0,0,1)] tracking-widest uppercase">MY COLLECTION</h1>
+            <h1 className="text-2xl md:text-3xl font-hearth text-white drop-shadow-[0_4px_8px_rgba(0,0,0,1)] tracking-widest uppercase">COLLECTION</h1>
             <div className="flex items-center gap-2">
               <Scroll size={16} className="text-hearth-gold opacity-40" />
               <p className="text-[9px] md:text-[11px] text-[#8b6b4d] uppercase tracking-[0.4em] font-black engraved">

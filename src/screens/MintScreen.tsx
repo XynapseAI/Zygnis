@@ -88,7 +88,7 @@ export const MintScreen = () => {
             <div className="relative z-10">
               <div className="flex items-center justify-between mb-6 border-b border-black/20 pb-3">
                 <h2 className="text-md font-hearth font-black uppercase tracking-widest text-hearth-gold drop-shadow-lg">Forge Specs</h2>
-                <div className="px-2 py-0.5 bg-indigo-950/40 border border-indigo-500/20 rounded-sm text-indigo-400 text-[8px] font-black uppercase tracking-[0.1em] shadow-inner">Base Portal</div>
+                <div className="px-2 py-0.5 bg-indigo-950/40 border border-indigo-500/20 rounded-sm text-indigo-400 text-[8px] font-black uppercase tracking-[0.1em] shadow-inner">On-chain</div>
               </div>
               <div className="space-y-6">
                 <ForgeRow label="Minting Cost" value={`${MINT_FEE} ZYG`} subText={`Pool: ${zyg.toLocaleString()}`} />
@@ -147,8 +147,8 @@ export const MintScreen = () => {
 
         <div className="order-1 lg:order-2 lg:col-span-3">
           <div className="flex items-center justify-between mb-6 px-4 border-b-[3px] border-[#3d2b1f] pb-4">
-            <h2 className="text-sm font-hearth text-white uppercase tracking-[0.2em] font-black drop-shadow-md">Available Vessels</h2>
-            <span className="text-[10px] text-hearth-gold font-black font-hearth tracking-[0.1em] uppercase">{inventoryCards.length} Spirits Ready</span>
+            <h2 className="text-sm font-hearth text-white uppercase tracking-[0.2em] font-black drop-shadow-md">Available Cards</h2>
+            <span className="text-[10px] text-hearth-gold font-black font-hearth tracking-[0.1em] uppercase">{inventoryCards.length} Cards Ready</span>
           </div>
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 max-h-[700px] overflow-y-auto pr-3 custom-scrollbar">
             {inventoryCards.map((item) => (
@@ -156,8 +156,8 @@ export const MintScreen = () => {
                 key={item.cardId}
                 onClick={() => setSelectedCardId(item.cardId)}
                 className={`group relative aspect-[5/7] rounded-sm border-[2px] transition-all duration-700 active:scale-95 shadow-[0_10px_20px_rgba(0,0,0,1)] hover:scale-105 hover:z-10 ${selectedCardId === item.cardId
-                    ? 'border-hearth-gold bg-[#2a1d15] scale-105 z-10 shadow-[0_20px_40px_rgba(244,208,63,0.3)]'
-                    : 'border-[#1a120d] bg-[#1a120d] grayscale group-hover:grayscale-0'
+                  ? 'border-hearth-gold bg-[#2a1d15] scale-105 z-10 shadow-[0_20px_40px_rgba(244,208,63,0.3)]'
+                  : 'border-[#1a120d] bg-[#1a120d] grayscale group-hover:grayscale-0'
                   }`}
               >
                 <div className="absolute inset-0 rounded-sm overflow-hidden m-0.5 border border-black/60 shadow-inner">

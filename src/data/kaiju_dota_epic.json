@@ -1,73 +1,73 @@
 [
     {
         "id": "KJV_EPI_015",
-        "name": "Ignathar",
-        "description": "A fearsome and legendary Volcanic Crab with a melting shell that serves as a powerful Elemental. Glowing with an eerie, inner light.",
+        "name": "Thrain the Mountain King",
+        "description": "The supreme ruler of all Dwarven kind. He sits upon a throne of solid diamond and commands the very foundations of the world.",
         "rarity": "Epic",
-        "attribute": "Flare",
+        "attribute": "Terra",
         "cardType": "Elemental",
-        "race": "Primal-Spirit",
+        "race": "Dwarf-King",
         "level": 7,
         "atk": 2483,
-        "def": 2250,
+        "def": 2500,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Volcanic Crab with a melting shell. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A majestic Dwarf King with a long white beard adorned with gems. Wearing heavy golden plate armor and a crown of glowing crystals. Holding a massive runic warhammer. Background: a vast underground throne room. High contrast, regal golds and deep blues, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_013",
-        "name": "Molvex",
-        "description": "A fearsome and legendary Eldritch Squid with glowing suckers that serves as a powerful Titan. Leaving a trail of destruction in its wake.",
-        "rarity": "Epic",
-        "attribute": "Void",
-        "cardType": "Titan",
-        "race": "Cyber-Demon",
-        "level": 7,
-        "atk": 2201,
-        "def": 1905,
-        "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Eldritch Squid with glowing suckers. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
-    },
-    {
-        "id": "KJV_EPI_022",
-        "name": "Infernus",
-        "description": "A fearsome and legendary Volcanic Crab with a melting shell that serves as a powerful Titan. Cloaked in a mantle of shifting elements.",
-        "rarity": "Epic",
-        "attribute": "Flare",
-        "cardType": "Titan",
-        "race": "Cyber-Demon",
-        "level": 6,
-        "atk": 2131,
-        "def": 1843,
-        "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Volcanic Crab with a melting shell. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
-    },
-    {
-        "id": "KJV_EPI_026",
-        "name": "Gorgolith",
-        "description": "A fearsome and legendary Living Mountain with a village on its back that serves as a powerful Titan. Standing amidst the ruins of a forgotten temple.",
+        "name": "Elder Yggdra",
+        "description": "The ancient Guardian of the World-Tree. His roots span the dimensions, and his wisdom is as deep as the earth itself.",
         "rarity": "Epic",
         "attribute": "Terra",
         "cardType": "Titan",
-        "race": "Ancient-Titan",
+        "race": "Treant-Elder",
+        "level": 7,
+        "atk": 2201,
+        "def": 2800,
+        "imageUrl": "TBA",
+        "imagePrompt": "Epic Norse Saga art style. A colossal, ancient Treant with a canopy of autumn-colored leaves. Glowing white eyes and a beard made of moss and vines. Holding a staff made of a World-Tree branch. Background: a celestial forest. High contrast, vibrant oranges and deep browns, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+    },
+    {
+        "id": "KJV_EPI_022",
+        "name": "Aethelred the High-Celestial",
+        "description": "The ultimate Thunder God, ruler of the Celestial Spire. He wields the primordial lightning that birthed the universe.",
+        "rarity": "Epic",
+        "attribute": "Aero",
+        "cardType": "Titan",
+        "race": "Sky-Dweller",
+        "level": 6,
+        "atk": 2131,
+        "def": 2000,
+        "imageUrl": "TBA",
+        "imagePrompt": "Epic Norse Saga art style. A god-like figure with six wings made of pure electricity. Wearing white and gold celestial armor. Holding two bolts of jagged blue lightning. Background: a golden palace in the clouds. High contrast, blinding whites and electric blues, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+    },
+    {
+        "id": "KJV_EPI_026",
+        "name": "High-Paladin Valerius",
+        "description": "The Grand Master of the Solar Order. His faith is a shield that no darkness can penetrate, and his sword is a beacon of hope.",
+        "rarity": "Epic",
+        "attribute": "Neon",
+        "cardType": "Titan",
+        "race": "Knight-Human",
         "level": 6,
         "atk": 2494,
-        "def": 2031,
+        "def": 2200,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Living Mountain with a village on its back. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A legendary knight in heavy plate armor glowing with solar energy. Holding a massive two-handed sword that radiates heat. Background: a holy cathedral. High contrast, intense golds and warm whites, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_020",
-        "name": "Vex'rasha",
-        "description": "A fearsome and legendary Dark Matter Slime that serves as a powerful Titan. Hissing with a voice like cracking glass.",
+        "name": "Warlord Gore-Axe",
+        "description": "The most bloodthirsty Orc Warlord to ever lead the Horde. His blood-lust is so intense that it creates a tangible aura of dread.",
         "rarity": "Epic",
         "attribute": "Void",
         "cardType": "Titan",
-        "race": "Cyber-Demon",
+        "race": "Orc-Warlord",
         "level": 6,
         "atk": 2457,
-        "def": 2397,
+        "def": 2100,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Dark Matter Slime. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A massive, terrifying Orc with black iron armor and a helmet with long spikes. Holding two massive, blood-dripping axes. Surrounded by a dark purple aura. Background: a battlefield filled with shadows. High contrast, dark purples and blood reds, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_029",
@@ -81,7 +81,7 @@
         "atk": 2451,
         "def": 2358,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Scorched Earth Elemental. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Scorched Earth Elemental. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_011",
@@ -95,7 +95,7 @@
         "atk": 2163,
         "def": 2061,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Feathered Serpent of the heights. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Feathered Serpent of the heights. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_002",
@@ -109,7 +109,7 @@
         "atk": 2453,
         "def": 1991,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary King Kong-inspired Silverback. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary King Kong-inspired Silverback. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_027",
@@ -123,7 +123,7 @@
         "atk": 2390,
         "def": 1923,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Holographic Cyber-Fox. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Holographic Cyber-Fox. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_024",
@@ -137,7 +137,7 @@
         "atk": 2366,
         "def": 2209,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Mist-shrouded Ghost Ship spirit. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Mist-shrouded Ghost Ship spirit. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_028",
@@ -151,7 +151,7 @@
         "atk": 2333,
         "def": 1916,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Frost-breath Penguin Warrior. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Frost-breath Penguin Warrior. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_021",
@@ -165,7 +165,7 @@
         "atk": 2102,
         "def": 2341,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Prism-winged Dragonfly. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Prism-winged Dragonfly. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_018",
@@ -179,7 +179,7 @@
         "atk": 2183,
         "def": 1822,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Void-touched Owl with cosmic feathers. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Void-touched Owl with cosmic feathers. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_009",
@@ -193,7 +193,7 @@
         "atk": 2264,
         "def": 2057,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Whirlpool Elemental. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Whirlpool Elemental. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_017",
@@ -207,7 +207,7 @@
         "atk": 2256,
         "def": 2076,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Data-stream Elemental. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Data-stream Elemental. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_001",
@@ -221,7 +221,7 @@
         "atk": 2110,
         "def": 1922,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Void-touched Owl with cosmic feathers. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Void-touched Owl with cosmic feathers. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_010",
@@ -235,7 +235,7 @@
         "atk": 2372,
         "def": 1909,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Digital Glitch Beast. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Digital Glitch Beast. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_019",
@@ -249,7 +249,7 @@
         "atk": 2125,
         "def": 1974,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Star-consuming Nebula Ray. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Star-consuming Nebula Ray. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_025",
@@ -263,7 +263,7 @@
         "atk": 2394,
         "def": 1980,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Mole King with a gold crown. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Mole King with a gold crown. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_003",
@@ -277,7 +277,7 @@
         "atk": 2175,
         "def": 2216,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Mist-shrouded Ghost Ship spirit. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Mist-shrouded Ghost Ship spirit. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_014",
@@ -291,7 +291,7 @@
         "atk": 2394,
         "def": 1903,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Mist-shrouded Ghost Ship spirit. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Mist-shrouded Ghost Ship spirit. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_008",
@@ -305,7 +305,7 @@
         "atk": 2455,
         "def": 2105,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Glacier-dwelling Mammoth. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Glacier-dwelling Mammoth. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_016",
@@ -319,7 +319,7 @@
         "atk": 2120,
         "def": 2054,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Mole King with a gold crown. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Mole King with a gold crown. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_012",
@@ -333,7 +333,7 @@
         "atk": 2270,
         "def": 2317,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Mole King with a gold crown. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Mole King with a gold crown. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_030",
@@ -347,7 +347,7 @@
         "atk": 2189,
         "def": 1964,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Data-stream Elemental. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Data-stream Elemental. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_023",
@@ -361,7 +361,7 @@
         "atk": 2247,
         "def": 2379,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Frost-breath Penguin Warrior. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Frost-breath Penguin Warrior. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_004",
@@ -375,7 +375,7 @@
         "atk": 2216,
         "def": 2226,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Umbral Stalker. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Umbral Stalker. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_007",
@@ -389,7 +389,7 @@
         "atk": 2206,
         "def": 2104,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Tornado-spinning Djinn. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Tornado-spinning Djinn. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_006",
@@ -403,7 +403,7 @@
         "atk": 2174,
         "def": 2144,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary King Kong-inspired Silverback. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary King Kong-inspired Silverback. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     },
     {
         "id": "KJV_EPI_005",
@@ -417,6 +417,6 @@
         "atk": 2245,
         "def": 1966,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A fearsome and legendary Tidal Wave Serpent. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-tier Yu-Gi-Oh! splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A fearsome and legendary Tidal Wave Serpent. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Epic Valhalla splash art, intricate textures, signature move particle effects, epic background. No text, no signature."
     }
 ]

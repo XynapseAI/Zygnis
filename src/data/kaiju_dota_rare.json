@@ -1,73 +1,73 @@
 [
     {
         "id": "KJV_RAR_024",
-        "name": "Ashborne",
-        "description": "A specialized and powerful Obsidian Dragon with glowing cracks that serves as a powerful Elemental. Glowing with an eerie, inner light.",
+        "name": "Brak-Ghul",
+        "description": "A legendary Dwarven Forge-Master. He can shape molten metal with his bare hands and commands the heat of the deep earth.",
         "rarity": "Rare",
         "attribute": "Flare",
         "cardType": "Elemental",
-        "race": "Spectral",
+        "race": "Dwarf-Elder",
         "level": 5,
         "atk": 1734,
-        "def": 1454,
+        "def": 1800,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Obsidian Dragon with glowing cracks. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. An elderly Dwarf with a glowing orange beard made of embers. Wearing heavy smithing aprons and holding a massive glowing hammer. Standing before a volcanic forge. High contrast, fiery oranges and deep blacks, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_033",
-        "name": "Tideshade",
-        "description": "A specialized and powerful River Spirit with lotus wings that serves as a powerful Elemental. Glowing with an eerie, inner light.",
+        "name": "Iron-Wood Sentinel",
+        "description": "An ancient Treant made of wood as hard as iron. He stands guard over the deepest groves, unyielding to any foe.",
         "rarity": "Rare",
-        "attribute": "Hydro",
+        "attribute": "Terra",
         "cardType": "Elemental",
-        "race": "Spectral",
+        "race": "Treant-Guardian",
         "level": 5,
         "atk": 1829,
-        "def": 1544,
+        "def": 2200,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful River Spirit with lotus wings. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A massive, dark-wood Treant with glowing green runes carved into its trunk. Arms ending in heavy club-like branches. Standing in a dense, misty forest. High contrast, deep forest greens and dark wood textures, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_012",
-        "name": "Brasswave",
-        "description": "A specialized and powerful Mist-shrouded Ghost Ship spirit that serves as a powerful Automaton. Charging forward with primal fury.",
+        "name": "Kaelen the Storm-Lord",
+        "description": "A powerful Thunder God who commands the fury of the gale. His arrival is heralded by deafening thunder and blinding lightning.",
         "rarity": "Rare",
-        "attribute": "Hydro",
-        "cardType": "Automaton",
-        "race": "Mecha-Beast",
+        "attribute": "Aero",
+        "cardType": "Titan",
+        "race": "Sky-Dweller",
         "level": 6,
         "atk": 1916,
-        "def": 1858,
+        "def": 1500,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Mist-shrouded Ghost Ship spirit. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A majestic Thunder God with long flowing white hair and armor made of condensed storm clouds. Holding a spear made of pure lightning. Surrounded by swirling dark clouds. High contrast, electric blues and dark grays, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_032",
-        "name": "Runespecter",
-        "description": "A specialized and powerful Digital Glitch Beast that serves as a powerful Elemental. Roaring with the force of a thousand storms.",
+        "name": "Sir Alistair the Radiant",
+        "description": "A Holy Knight of the Sun. His golden armor shines with a divine light that blinds his enemies and inspires his allies.",
         "rarity": "Rare",
         "attribute": "Neon",
-        "cardType": "Elemental",
-        "race": "Spectral",
+        "cardType": "Creep",
+        "race": "Knight-Human",
         "level": 4,
         "atk": 1987,
-        "def": 1579,
+        "def": 1800,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Digital Glitch Beast. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A noble knight in ornate gold and white armor. Holding a glowing broadsword aloft. Sun rays beaming from behind him. High contrast, radiant golds and pure whites, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_011",
-        "name": "Arcanlock",
-        "description": "A specialized and powerful Mana-infused Runic Golem that serves as a powerful Automaton. Wielding a staff of pure energy.",
+        "name": "Warchief Iron-Jaw",
+        "description": "The brutal leader of the Orc Horde. He commands with fear and a massive, blood-stained war-axe.",
         "rarity": "Rare",
-        "attribute": "Neon",
-        "cardType": "Automaton",
-        "race": "Mecha-Beast",
+        "attribute": "Terra",
+        "cardType": "Titan",
+        "race": "Orc-Chieftain",
         "level": 4,
         "atk": 1897,
-        "def": 1854,
+        "def": 1600,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Mana-infused Runic Golem. Wielding a staff of pure energy. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A massive, battle-scarred green Orc with heavy iron armor and a tattered red cape. Holding a huge double-headed war-axe. Standing on a pile of rubble. High contrast, blood reds and iron grays, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_020",
@@ -81,7 +81,7 @@
         "atk": 1996,
         "def": 1856,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Abyssal Gatekeeper with iron chains. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Abyssal Gatekeeper with iron chains. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_025",
@@ -95,7 +95,7 @@
         "atk": 1685,
         "def": 1653,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Molten Lava Salamander. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Molten Lava Salamander. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_008",
@@ -109,7 +109,7 @@
         "atk": 1606,
         "def": 1701,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Storm-chaser Falcon. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Storm-chaser Falcon. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_002",
@@ -123,7 +123,7 @@
         "atk": 1751,
         "def": 1829,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Arcane Drone with laser eyes. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Arcane Drone with laser eyes. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_015",
@@ -137,7 +137,7 @@
         "atk": 1947,
         "def": 1664,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Eldritch Squid with glowing suckers. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Eldritch Squid with glowing suckers. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_037",
@@ -151,7 +151,7 @@
         "atk": 1749,
         "def": 1946,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Golden-maned Sky Lion. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Golden-maned Sky Lion. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_007",
@@ -165,7 +165,7 @@
         "atk": 1721,
         "def": 1914,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Vapor-wave Pegasus. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Vapor-wave Pegasus. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_028",
@@ -179,7 +179,7 @@
         "atk": 1892,
         "def": 1907,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Cactus-covered Lizard. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Cactus-covered Lizard. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_027",
@@ -193,7 +193,7 @@
         "atk": 1779,
         "def": 1893,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Glacier-dwelling Mammoth. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Glacier-dwelling Mammoth. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_029",
@@ -207,7 +207,7 @@
         "atk": 1815,
         "def": 1941,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Cloud-walking Stag. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Cloud-walking Stag. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_003",
@@ -221,7 +221,7 @@
         "atk": 1691,
         "def": 1259,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Abyssal Gatekeeper with iron chains. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Abyssal Gatekeeper with iron chains. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_005",
@@ -235,7 +235,7 @@
         "atk": 1852,
         "def": 1654,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Arcane Drone with laser eyes. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Arcane Drone with laser eyes. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_009",
@@ -249,7 +249,7 @@
         "atk": 1789,
         "def": 1567,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Sun Wukong-inspired Monkey Warrior. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Sun Wukong-inspired Monkey Warrior. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_039",
@@ -263,7 +263,7 @@
         "atk": 1939,
         "def": 1523,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Ember-winged Butterfly. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Ember-winged Butterfly. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_013",
@@ -277,7 +277,7 @@
         "atk": 1943,
         "def": 1451,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful King Kong-inspired Silverback. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful King Kong-inspired Silverback. Roaring with the force of a thousand storms. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_023",
@@ -291,7 +291,7 @@
         "atk": 1957,
         "def": 1322,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Crystalline Jellyfish. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Crystalline Jellyfish. Meditating in a state of tranquil power. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_021",
@@ -305,7 +305,7 @@
         "atk": 1902,
         "def": 1729,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Zephyr Elemental. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Zephyr Elemental. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_006",
@@ -319,7 +319,7 @@
         "atk": 1632,
         "def": 1707,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Tidal Wave Serpent. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Tidal Wave Serpent. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_036",
@@ -333,7 +333,7 @@
         "atk": 1857,
         "def": 1572,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Synth-wave Phoenix. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Synth-wave Phoenix. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_022",
@@ -347,7 +347,7 @@
         "atk": 1993,
         "def": 1622,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Circuit-patterned Panther. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Circuit-patterned Panther. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_004",
@@ -361,7 +361,7 @@
         "atk": 1805,
         "def": 1948,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Volcanic Crab with a melting shell. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Volcanic Crab with a melting shell. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_030",
@@ -375,7 +375,7 @@
         "atk": 1930,
         "def": 1643,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Plasma-bladed Warrior. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Plasma-bladed Warrior. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_031",
@@ -389,7 +389,7 @@
         "atk": 1660,
         "def": 1529,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Coral-armored Samurai. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Coral-armored Samurai. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_001",
@@ -403,7 +403,7 @@
         "atk": 1951,
         "def": 1520,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Sky-pirate Parrot with a mechanical wing. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Sky-pirate Parrot with a mechanical wing. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_018",
@@ -417,7 +417,7 @@
         "atk": 1835,
         "def": 1314,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Lightning-charged Tiger. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Lightning-charged Tiger. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_017",
@@ -431,7 +431,7 @@
         "atk": 1617,
         "def": 1695,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Stone Golem with emerald eyes. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Stone Golem with emerald eyes. Hissing with a voice like cracking glass. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_019",
@@ -445,7 +445,7 @@
         "atk": 1943,
         "def": 1460,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Zephyr Elemental. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Zephyr Elemental. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_016",
@@ -459,7 +459,7 @@
         "atk": 1977,
         "def": 1359,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Stone Golem with emerald eyes. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Stone Golem with emerald eyes. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_010",
@@ -473,7 +473,7 @@
         "atk": 1652,
         "def": 1473,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Abyssal Gatekeeper with iron chains. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Abyssal Gatekeeper with iron chains. Leaving a trail of destruction in its wake. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_038",
@@ -487,7 +487,7 @@
         "atk": 1859,
         "def": 1478,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Root-entwined Forest Guardian. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Root-entwined Forest Guardian. Surrounded by a swirl of ancient runes. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_035",
@@ -501,7 +501,7 @@
         "atk": 1771,
         "def": 1899,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Burning Cinder Wolf. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Burning Cinder Wolf. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_014",
@@ -515,7 +515,7 @@
         "atk": 1602,
         "def": 1673,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Blazing Phoenix hatchling. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Blazing Phoenix hatchling. Cloaked in a mantle of shifting elements. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_040",
@@ -529,7 +529,7 @@
         "atk": 1853,
         "def": 1696,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Void-touched Owl with cosmic feathers. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Void-touched Owl with cosmic feathers. Charging forward with primal fury. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_034",
@@ -543,7 +543,7 @@
         "atk": 1923,
         "def": 1690,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Stone Golem with emerald eyes. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Stone Golem with emerald eyes. Standing amidst the ruins of a forgotten temple. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     },
     {
         "id": "KJV_RAR_026",
@@ -557,6 +557,6 @@
         "atk": 1901,
         "def": 1786,
         "imageUrl": "TBA",
-        "imagePrompt": "Yu-Gi-Oh! card game art style. A specialized and powerful Holographic Cyber-Fox. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. Detailed Yu-Gi-Oh! card art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
+        "imagePrompt": "Epic Norse Saga art style. A specialized and powerful Holographic Cyber-Fox. Glowing with an eerie, inner light. Dynamic action pose, high contrast saturated colors, sharp stylized linework. High-fidelity Norse Mythos art style, dynamic combat pose, rim lighting, atmospheric depth. No text, no signature."
     }
 ]

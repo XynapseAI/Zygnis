@@ -64,9 +64,9 @@ export const BurnScreen = () => {
           <div className="flex items-center justify-between mb-4 px-4 border-b-[3px] border-[#3d2b1f] pb-4">
             <div className="flex items-center gap-3">
               <Shield size={18} className="text-[#3d2b1f]" />
-              <h2 className="text-sm font-hearth text-white uppercase tracking-[0.2em] font-black drop-shadow-md">Available Relics</h2>
+              <h2 className="text-sm font-hearth text-white uppercase tracking-[0.2em] font-black drop-shadow-md">Available Cards</h2>
             </div>
-            <span className="text-[10px] text-hearth-gold font-black font-hearth tracking-[0.1em] uppercase">{inventoryCards.length} RELICS IN POSSESSION</span>
+            <span className="text-[10px] text-hearth-gold font-black font-hearth tracking-[0.1em] uppercase">{inventoryCards.length} CARDS READY</span>
           </div>
 
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 max-h-[700px] overflow-y-auto pr-4 custom-scrollbar">

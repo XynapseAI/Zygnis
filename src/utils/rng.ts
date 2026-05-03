@@ -1,21 +1,24 @@
+// src/utils/rng.ts
 import { allCards } from './cards';
 
-// Probabilities (out of 1000 to handle small % - now including Legendary)
-const WEIGHTS = {
-  'Nothing': 950,    // 95%
-  'Common': 25,     // 2.5%
-  'Rare': 15,       // 1.5%
-  'Epic': 7,       // 0.7%
-  'Mythic': 2,      // 0.2%
-  'Legendary': 1    // 0.1%
-};
+const WEIGHTS = [
+  { rarity: 'Nothing', weight: 950 }, // 95.0%
+  { rarity: 'Common', weight: 25 },  // 2.5%
+  { rarity: 'Rare', weight: 15 },  // 1.5%
+  { rarity: 'Epic', weight: 7 },   // 0.7%
+  { rarity: 'Mythic', weight: 2 },   // 0.2%
+  { rarity: 'Legendary', weight: 1 }    // 0.1%
+];
 
 export const rollForCard = (): string | null => {
-  const roll = Math.random() * 1000;
+
+  const totalWeight = WEIGHTS.reduce((sum, item) => sum + item.weight, 0);
+  const roll = Math.random() * totalWeight;
+
   let cumulative = 0;
   let selectedRarity = 'Nothing';
-  
-  for (const [rarity, weight] of Object.entries(WEIGHTS)) {
+
+  for (const { rarity, weight } of WEIGHTS) {
     cumulative += weight;
     if (roll <= cumulative) {
       selectedRarity = rarity;
@@ -27,9 +30,8 @@ export const rollForCard = (): string | null => {
     return null;
   }
 
-  // Select a random card of that rarity
   const availableCards = allCards.filter(c => c.rarity === selectedRarity);
-  if (availableCards.length === 0) return null; // Fallback if no cards of rarity exist
+  if (availableCards.length === 0) return null;
 
   const randomIndex = Math.floor(Math.random() * availableCards.length);
   return availableCards[randomIndex].id;
